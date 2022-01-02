@@ -5,7 +5,7 @@ def menu():
     print("| Chose 1 for Average            |")
     print("| Chose 2 for Max                |")
     print("| Chose 3 for Average and Max    |")
-    print("| Chose 4 for Display All Data   |")
+    print("| Chose 4 for Display Data       |")
     print("==================================")
     print("")
 
@@ -15,6 +15,8 @@ def displayData():
         s = a[idx].split()
         k = [int(a[idx]) for a[idx] in s[1:]]
         print(s[0], ":", k)
+        print("Laptop Cost :",s[1])
+        print("Savings week one to four :",s[2:])
 
 with open("data.txt") as f:
     a = f.readlines()  # tiap baris dalam file
