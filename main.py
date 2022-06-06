@@ -2,10 +2,10 @@ from sys import exit
 
 def menu():
     print("==================================")
-    print("| Chose 1 for Average            |")
-    print("| Chose 2 for Max                |")
-    print("| Chose 3 for Average and Max    |")
-    print("| Chose 4 for Display Data       |")
+    print("| Choose 1 for Average            |")
+    print("| Choose 2 for Max                |")
+    print("| Choose 3 for Average and Max    |")
+    print("| Choose 4 for Display Data       |")
     print("==================================")
     print("")
 
